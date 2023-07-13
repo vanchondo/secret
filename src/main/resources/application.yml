@@ -7,3 +7,8 @@ jasypt:
   encryptor:
     algorithm: PBEWithMD5AndDES
     iv-generator-classname: org.jasypt.iv.NoIvGenerator
+
+com:
+  vanchondo:
+    secret:
+      secret-key: ENC(irSPgA6Iu+WckRjiOsKTyXMqDmqxHqIs2PccXumab8Q=)    

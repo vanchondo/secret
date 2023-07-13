@@ -10,16 +10,21 @@
             "colId": "4802aec3-49f9-46dc-82b8-3753482fb56b",
             "containerId": "",
             "name": "encrypt",
-            "url": "{{host}}/encrypt?value=valueToEnc34rypt",
+            "url": "{{host}}/encrypt?value=valueToEncrypt",
             "method": "GET",
             "sortNum": 10000,
             "created": "2023-07-13T01:55:47.135Z",
-            "modified": "2023-07-13T03:33:51.035Z",
-            "headers": [],
+            "modified": "2023-07-13T16:57:44.666Z",
+            "headers": [
+                {
+                    "name": "Secret-Key",
+                    "value": "suncHtLDX4veiwyv9PzexVgm5lKWflibes29c0EvzGU="
+                }
+            ],
             "params": [
                 {
                     "name": "value",
-                    "value": "valueToEnc34rypt",
+                    "value": "valueToEncrypt",
                     "isPath": false
                 }
             ],
