@@ -1,0 +1,8 @@
+server:
+  ssl:
+    key-store-type: PKCS12
+    key-store: classpath:keystore/keystore.p12
+    key-store-password: ENC(M/XDcwP4PSJ8aPTulgwR20hN8ql2VO8b)
+    key-alias: secret-svc
+    enabled: true
+  port: 8443
