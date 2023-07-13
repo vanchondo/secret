@@ -1,0 +1,29 @@
+{
+    "_id": "70bdd9da-a0ce-44bd-abfe-8a06681533b5",
+    "colName": "Decrypt",
+    "created": "2023-07-13T01:56:03.943Z",
+    "sortNum": 20000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "de7ba9a1-b7de-45db-8af1-b5eba357661f",
+            "colId": "70bdd9da-a0ce-44bd-abfe-8a06681533b5",
+            "containerId": "",
+            "name": "decrypt",
+            "url": "{{host}}/encrypt?value=valueToDecrypt ",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-13T01:56:14.945Z",
+            "modified": "2023-07-13T01:56:20.686Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "value",
+                    "value": "valueToDecrypt",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

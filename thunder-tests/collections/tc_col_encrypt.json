@@ -1,0 +1,29 @@
+{
+    "_id": "4802aec3-49f9-46dc-82b8-3753482fb56b",
+    "colName": "Encrypt",
+    "created": "2023-07-13T01:55:37.078Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8d383aae-8616-4025-b5f8-e3fc0e6fbfdc",
+            "colId": "4802aec3-49f9-46dc-82b8-3753482fb56b",
+            "containerId": "",
+            "name": "encrypt",
+            "url": "{{host}}/encrypt?value=valueToEncrypt",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-07-13T01:55:47.135Z",
+            "modified": "2023-07-13T01:55:56.319Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "value",
+                    "value": "valueToEncrypt",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}
