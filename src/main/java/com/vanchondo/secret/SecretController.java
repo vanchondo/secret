@@ -23,10 +23,4 @@ public class SecretController {
         log.info("::encrypt::value={}", value);
         return ResponseEntity.ok(encryptor.encrypt(value));
     }
-
-    @GetMapping(value="decrypt")
-    public ResponseEntity<String> decrypt(@RequestParam(name="value") String value) {
-        log.info("::decrypt::value={}", value);
-        return ResponseEntity.ok(encryptor.decrypt(value));
-    }
 }
